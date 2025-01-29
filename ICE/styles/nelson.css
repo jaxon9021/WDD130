@@ -1,0 +1,27 @@
+body {
+    background-color: #66b3ff;
+    text-align: center;
+    color: wite;
+
+}
+h1{
+    color:white;
+}
+h1:hover{
+    color:black;
+}
+h4{
+    color: white;
+    
+
+}
+p{
+    font-size: 16;
+}
+.list{
+    color: black;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
