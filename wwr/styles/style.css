@@ -5,11 +5,9 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    color: #DAD7CD
 }
-nav a:hover {
-
-}
-#hero-msg h1, #hero-msdg h4 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
@@ -20,6 +18,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color:#A3B18A;
 }
 body {
 background-color: #DAD7CD;
@@ -32,14 +31,12 @@ background-color: #344E41;
 color:#DAD7CD
 }
 .book, .join {
-    text-decoration: none;
+    text-decoration: underline;
+    color:#344E41;
 }
 .book:hover, .join:hover {
 background-color: #588157;
 color: #DAD7CD;
-}
-#background {
-
 }
 .msg{
 background-color: #DAD7CD;
@@ -48,11 +45,13 @@ footer {
 background-color: #A3B18A ;
 }
 footer a {
-    text-decoration: none;
+    text-decoration: underline;
+    color:#DAD7CD;
 }
 footer a:hover {
 background-color: #588157;
 color: #DAD7CD;
+text-decoration: none;
 }
 .icon {
     width: 80px;
@@ -60,9 +59,7 @@ color: #DAD7CD;
 #hero-img {
     width: 100%;
 }
-#hero {
-    text-align: center;
-}
+
 footer p {
     font-size: 1.2em;
 }
@@ -70,7 +67,5 @@ footer p a:hover {
     text-decoration: underline;
 }
 .logo {
-    text-align: center;
-    max-width: 80px;
-    max-height: 80px;
+    width: 80px;
 }

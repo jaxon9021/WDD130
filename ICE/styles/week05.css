@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+}
+
+#banner{
+    width: 100%;
+}
+#icon{
+    margin:50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-width: 15px;
+    border-color: #444444;
+    border-style: solid;
+
+}

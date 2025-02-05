@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    margin: 100px;
+    border: 10px solid black;
+}  
