@@ -1,0 +1,32 @@
+header{
+    background-color: blue;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: o.8em;
+    display: inline-block;
+}
+
+a:hover {
+    color:blue;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+#flec-container > section {
+    flex: 200px
+    border: 1px solid black;
+}
