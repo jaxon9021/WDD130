@@ -1,0 +1,33 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.read{
+    grid-column: 1/2;
+    width: 100%;
+}
+
+.views{
+    grid-column: 2/3;
+    width: 100%;
+
+}
+
+.comments{
+    grid-column: 2/3;
+}
+
+h3{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-color: black;
+    border-width: 40px;
+}
+
+p{
+    color:aqua;
+}
