@@ -230,8 +230,60 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 
 }
+
+.rivers-title {
+    font-family: 'Chealsea Market', georgia, Trebuchet ;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.salmon-river {
+    font-size: .8em;
+    background-color: #588157;
+    grid-column: 6/9;
+    grid-row: 1;
+    
+
+}
+
+
+.salmon-img {
+    width: 100%;
+    grid-column: 3/8;
+    grid-row: 1;
+
+    
+}
+
+.gray-img {
+    width: 100%;
+}
+
+.grand-img {
+    width: 100%;
+}
+
+.grand-canyon {
+    font-size: .8em;
+}
+
+.gray-canyon {
+    font-size: .8em;
+
+}
+
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid{
         display: block;
         height: auto;
     }
